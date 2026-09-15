@@ -1,20 +1,12 @@
-# GadgetGearCo — Premium Store V8
+# GadgetGearCo Store V9
 
-Larger premium presentation for desktop and responsive mobile.
+A completely redesigned GadgetGearCo storefront.
 
-## Upload to GitHub Pages
-Replace the current root `index.html` with this new `index.html`.
+This is **not** the V8 layout enlarged. V9 uses a new e-commerce structure with a product-focused hero, stronger product merchandising, promotional banner, categories and demo shopping bag.
 
-This version is intentionally single-file: HTML, CSS and JavaScript are all inside `index.html`.
+## GitHub Pages
+Upload/replace only `index.html` in the root of the repository.
 
-### V8 improvements
-- Larger hero and typography
-- Larger product cards and product visuals
-- Better spacing and desktop scale
-- Stronger pricing/buttons
-- Larger navigation and trust bar
-- Improved category cards
-- Responsive tablet/mobile layout
-- Functional demo shopping bag
+All CSS and JavaScript are embedded in that file.
 
-> Product information, ratings, prices, discounts, shipping claims and checkout are demonstration content until connected to real commerce systems.
+> Prices, ratings, reviews, shipping/returns claims and checkout are demo content. Connect real commerce systems before taking orders.

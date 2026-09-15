@@ -1,7 +1,15 @@
-# GadgetGearCo — Single File Store V4
+# GadgetGearCo — Premium Online Store V5
 
-This version intentionally uses **one index.html file** containing HTML, CSS and JavaScript.
+Single-file GitHub Pages storefront.
 
-Upload/replace `index.html` in the root of the GitHub Pages repository.
+## V5 improvements
+- Premium product cards
+- USD prices
+- Previous prices and promotional badges
+- Star ratings
+- Category filters
+- Functional front-end shopping bag
+- Responsive mobile design
+- Single `index.html` to avoid broken CSS/JS paths
 
-Demo storefront: prices and checkout are not connected to real payments, shipping, inventory, taxes or fulfillment.
+> Products, prices, ratings and promotional claims are demonstration content. Checkout, payments, shipping, inventory, taxes and fulfillment are not connected.

@@ -1,16 +1,5 @@
-# GadgetGearCo — Online Store
+# GadgetGearCo — Premium Online Store V2
 
-English-language demo storefront for GadgetGearCo.
+Premium responsive storefront in English with USD demo pricing, product cards, categories, promotional hero, shopping cart and mobile layout.
 
-## Currency
-USD ($)
-
-## Included
-- Responsive premium black / electric-blue / silver design
-- Product catalog
-- Demonstration USD prices
-- Functional front-end shopping cart
-- Mobile layout
-
-## Important
-Products and prices are demonstration content. Checkout/payment, shipping, taxes, inventory and order processing are not connected yet and must be configured before accepting real orders.
+> Products, prices, shipping claims and checkout are demonstration content until connected to real commerce services.

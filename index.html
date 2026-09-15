@@ -4,69 +4,60 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>GadgetGearCo | Premium Tech Accessories</title>
-<meta name="description" content="Premium electronic accessories, charging gear, audio and smart everyday tech.">
-<link rel="stylesheet" href="styles.css">
+<meta name="description" content="Premium electronic accessories, charging gear, audio and everyday tech.">
+<style>
+:root{--bg:#05080d;--panel:#09121d;--panel2:#0d1d2e;--blue:#27a5ff;--line:#173b58;--text:#f4f8fc;--muted:#8ca1b5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}a{text-decoration:none;color:inherit}button{font:inherit}
+.top{background:linear-gradient(90deg,#087cd2,#38b4ff);text-align:center;padding:10px;font-size:11px;font-weight:900;letter-spacing:1.8px}
+header{height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 6%;border-bottom:1px solid var(--line);background:#05080df5;position:sticky;top:0;z-index:20}
+.brand{display:flex;align-items:center;gap:11px;font-weight:900;font-size:18px}.logo{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;border:2px solid #2daeff;background:radial-gradient(circle,#123d60,#03070b);color:#57bdff;font-size:24px;font-style:italic;box-shadow:0 0 24px #148ad844}.brand em{font-style:normal;color:var(--blue)}.brand small{display:block;font-size:7px;color:#7890a4;letter-spacing:1.6px;margin-top:3px}
+nav{display:flex;gap:30px;font-size:12px;font-weight:700}nav a:hover{color:var(--blue)}.cartBtn{border:0;background:var(--blue);color:#fff;padding:12px 17px;border-radius:25px;font-weight:900}.cartBtn span{background:white;color:#1688d9;padding:2px 7px;border-radius:12px;margin-left:5px}
+.hero{min-height:630px;padding:80px 7%;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;overflow:hidden;background:radial-gradient(circle at 80% 40%,#0d3a65 0,#081b30 25%,#05080d 57%)}
+.kicker{font-size:10px;letter-spacing:3px;font-weight:900;color:var(--blue)}h1{font-size:clamp(55px,6.5vw,98px);line-height:.89;letter-spacing:-4px;margin:18px 0 25px}h1 span{color:var(--blue)}.hero p{font-size:17px;line-height:1.65;color:#a5b5c4;max-width:620px}.buttons{display:flex;gap:12px;margin-top:32px}.btn{padding:15px 20px;border-radius:5px;font-size:11px;font-weight:900;letter-spacing:.7px}.primary{background:var(--blue)}.ghost{border:1px solid #31506a}
+.art{height:440px;position:relative}.orb{position:absolute;width:350px;height:350px;border-radius:50%;left:18%;top:8%;background:radial-gradient(circle at 35% 30%,#43b8ff,#0969aa 20%,#06111d 55%,#020407 70%);box-shadow:0 0 80px #168fe055;border:1px solid #3184bd}.orb:after{content:"G";position:absolute;inset:0;display:grid;place-items:center;font-size:170px;font-weight:900;font-style:italic;color:#c7d4de;text-shadow:10px 10px 0 #087bd0}.chip{position:absolute;background:#07111ddd;border:1px solid #28628d;padding:15px 20px;border-radius:10px;box-shadow:0 15px 30px #0008}.chip b,.chip small{display:block}.chip b{font-size:18px}.chip small{color:#61bdff;font-size:8px;letter-spacing:1.5px;margin-bottom:5px}.c1{left:3%;bottom:15%}.c2{right:3%;top:18%}
+.benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:20px 6%;background:#08121e;border-block:1px solid var(--line)}.benefit{padding:18px;border:1px solid #173852;display:flex;gap:13px;align-items:center}.benefit i{font-style:normal;color:var(--blue);font-size:24px}.benefit b,.benefit small{display:block}.benefit b{font-size:10px;letter-spacing:1px}.benefit small{color:#72889c;font-size:9px;margin-top:4px}
+section.shop{padding:90px 7%}.head{display:flex;align-items:end;justify-content:space-between;margin-bottom:35px}.head h2{font-size:44px;margin:8px 0 0}.head a{font-size:10px;color:var(--blue);font-weight:900}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.product{background:linear-gradient(#0a1521,#060b11);border:1px solid #193b56;border-radius:9px;padding:14px;position:relative}.tag{position:absolute;left:24px;top:24px;z-index:2;background:var(--blue);padding:7px 9px;font-size:8px;font-weight:900}.pic{height:240px;background:radial-gradient(circle,#123b5c,#07111c 60%);display:grid;place-items:center;border-radius:6px;margin-bottom:18px}.pic .icon{font-size:75px;filter:drop-shadow(0 0 20px #168fe0)}.cat{color:var(--blue);font-size:8px;letter-spacing:2px}.product h3{margin:9px 0;font-size:18px}.product p{color:#7e93a6;font-size:11px;line-height:1.5;min-height:34px}.buy{display:flex;align-items:center;gap:8px;margin-top:18px}.buy strong{font-size:18px}.buy del{font-size:10px;color:#687d90}.add{margin-left:auto;border:1px solid #299ee9;background:transparent;color:white;padding:10px 11px;font-size:9px;font-weight:900}.add:hover{background:var(--blue)}
+.promo{margin:10px 7% 80px;padding:60px;background:linear-gradient(120deg,#07121d,#0b3358);border:1px solid #1c4c70;display:grid;grid-template-columns:1fr 1fr;align-items:center;min-height:350px}.promo h2{font-size:48px;margin:12px 0}.promo h2 span{color:var(--blue)}.promo p{color:#91a5b8}.promoVisual{height:260px;position:relative}.square{width:180px;height:180px;position:absolute;right:24%;top:30px;border-radius:38px;transform:rotate(15deg);display:grid;place-items:center;background:linear-gradient(145deg,#162c3f,#020507);border:1px solid #3a739d;box-shadow:0 30px 60px #000;font-size:75px;color:var(--blue);font-weight:900}.ring{width:250px;height:250px;border:30px solid #1379bd;border-radius:50%;position:absolute;right:15%;opacity:.6;box-shadow:0 0 60px #168fe0}
+footer{padding:45px 7%;border-top:1px solid var(--line);color:#73899c}.footerBrand{font-weight:900;color:white}.footerBrand span{color:var(--blue)}footer p,footer small{font-size:10px}
+.drawer{position:fixed;right:-430px;top:0;width:min(420px,100%);height:100%;z-index:50;background:#07111c;border-left:1px solid #28516f;padding:28px;transition:.3s}.drawer.open{right:0}.drawerHead{display:flex;justify-content:space-between;align-items:center}.drawerHead button{border:0;background:none;color:#fff;font-size:30px}.items{min-height:55%;padding:15px 0}.row{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid #17354d;font-size:12px}.total{display:flex;justify-content:space-between;font-size:20px;padding:20px 0}.checkout{width:100%;border:0;background:var(--blue);color:white;padding:16px;font-weight:900}.note{display:block;color:#71879a;font-size:9px;margin-top:14px}.overlay{display:none;position:fixed;z-index:40;inset:0;background:#000b}.overlay.show{display:block}
+@media(max-width:900px){nav{display:none}.hero{grid-template-columns:1fr;padding-top:55px}.art{height:400px}.benefits,.grid{grid-template-columns:repeat(2,1fr)}.promo{grid-template-columns:1fr}.promoVisual{margin-top:30px}}
+@media(max-width:560px){header{padding:0 4%}.brand small{display:none}.hero{padding:50px 5%;min-height:auto}h1{font-size:50px;letter-spacing:-2px}.hero p{font-size:14px}.art{height:330px}.orb{width:250px;height:250px}.orb:after{font-size:120px}.benefits,.grid{grid-template-columns:1fr}.shop{padding:65px 5%}.head h2{font-size:34px}.promo{margin:5px 5% 60px;padding:30px}.promo h2{font-size:38px}}
+</style>
 </head>
 <body>
-<div class="topbar">FREE SHIPPING ON DEMO ORDERS $50+ <span>•</span> NEW TECH. BETTER EVERYDAY.</div>
+<div class="top">GADGETGEARCO • PREMIUM EVERYDAY TECH • USD PRICING</div>
 <header>
-  <a class="brand" href="#home"><div class="mark">G</div><div>GADGET<span>GEAR</span>CO<small>PREMIUM TECH ACCESSORIES</small></div></a>
-  <nav><a href="#shop">Shop</a><a href="#categories">Categories</a><a href="#deals">Deals</a><a href="#about">About</a></nav>
-  <div class="actions"><button class="search" aria-label="Search">⌕</button><button id="cartBtn" class="cart">Bag <b id="cartCount">0</b></button></div>
+<a class="brand" href="#"><div class="logo">G</div><div>GADGET<em>GEAR</em>CO<small>ELECTRONICS • ACCESSORIES • TECHNOLOGY</small></div></a>
+<nav><a href="#shop">Shop</a><a href="#categories">Categories</a><a href="#deals">Deals</a><a href="#about">About</a></nav>
+<button class="cartBtn" id="cartOpen">BAG <span id="count">0</span></button>
 </header>
-
-<main id="home">
+<main>
 <section class="hero">
- <div class="hero-copy">
-  <div class="eyebrow">GADGETGEARCO • 2026 COLLECTION</div>
-  <h1>TECH THAT<br><span>LOOKS AS GOOD</span><br>AS IT WORKS.</h1>
-  <p>Upgrade your everyday setup with sleek charging, mobile, audio and desk accessories selected for modern life.</p>
-  <div class="hero-buttons"><a class="primary" href="#shop">SHOP THE COLLECTION →</a><a class="secondary" href="#deals">VIEW DEALS</a></div>
-  <div class="proof"><div><b>30 DAY</b><small>RETURNS</small></div><div><b>SECURE</b><small>CHECKOUT*</small></div><div><b>FAST</b><small>SUPPORT</small></div></div>
- </div>
- <div class="hero-art">
-   <div class="glow"></div>
-   <div class="device phone"><span>⚡</span><small>POWER<br>YOUR DAY</small></div>
-   <div class="device pod">G</div>
-   <div class="floating f1">USB-C<br><b>65W</b></div>
-   <div class="floating f2">SMART<br><b>GEAR</b></div>
- </div>
+<div><div class="kicker">THE NEW EVERYDAY TECH EDIT</div><h1>SMARTER GEAR.<br><span>CLEANER SETUP.</span></h1><p>Modern electronic accessories designed to power, connect and simplify your everyday life.</p><div class="buttons"><a class="btn primary" href="#shop">SHOP BEST SELLERS →</a><a class="btn ghost" href="#deals">EXPLORE DEALS</a></div></div>
+<div class="art"><div class="orb"></div><div class="chip c1"><small>FAST POWER</small><b>65W USB-C</b></div><div class="chip c2"><small>GADGETGEARCO</small><b>SMART TECH</b></div></div>
 </section>
-
-<section class="category-strip" id="categories">
- <a href="#shop"><span>⌁</span><div><b>CHARGING</b><small>Power up faster</small></div>→</a>
- <a href="#shop"><span>◉</span><div><b>MOBILE</b><small>Everyday essentials</small></div>→</a>
- <a href="#shop"><span>◒</span><div><b>AUDIO</b><small>Sound on the go</small></div>→</a>
- <a href="#shop"><span>▣</span><div><b>DESK</b><small>Upgrade your setup</small></div>→</a>
-</section>
-
-<section class="products-section" id="shop">
- <div class="section-head"><div><div class="eyebrow">CURATED ESSENTIALS</div><h2>Best Sellers</h2></div><a href="#shop">VIEW ALL PRODUCTS →</a></div>
- <div class="products">
-  <article class="product"><div class="badge">BEST SELLER</div><div class="visual charger"><span>⚡</span></div><div class="meta">CHARGING</div><h3>65W GaN Fast Charger</h3><p>Compact high-speed USB-C power for your everyday devices.</p><div class="buy"><strong>$34.99</strong><button class="add" data-name="65W GaN Fast Charger" data-price="34.99">ADD TO BAG</button></div></article>
-  <article class="product"><div class="badge new">NEW</div><div class="visual bank"><span>100</span></div><div class="meta">POWER</div><h3>20K Power Bank Pro</h3><p>High-capacity portable power with a clean digital display.</p><div class="buy"><strong>$39.99</strong><button class="add" data-name="20K Power Bank Pro" data-price="39.99">ADD TO BAG</button></div></article>
-  <article class="product"><div class="badge">POPULAR</div><div class="visual buds"><i></i><i></i></div><div class="meta">AUDIO</div><h3>Wireless Mini Buds</h3><p>Compact wireless audio designed for commuting and travel.</p><div class="buy"><strong>$29.99</strong><button class="add" data-name="Wireless Mini Buds" data-price="29.99">ADD TO BAG</button></div></article>
-  <article class="product"><div class="badge sale">SAVE 20%</div><div class="visual stand"><span>▱</span></div><div class="meta">DESK</div><h3>Magnetic Charging Stand</h3><p>A minimal stand that keeps your phone powered and visible.</p><div class="buy"><strong>$19.99</strong><del>$24.99</del><button class="add" data-name="Magnetic Charging Stand" data-price="19.99">ADD TO BAG</button></div></article>
- </div>
-</section>
-
-<section class="deal" id="deals">
- <div><div class="eyebrow">THE GADGETGEAR EDIT</div><h2>Build a cleaner,<br><span>smarter setup.</span></h2><p>Small upgrades. Better charging. Less clutter. More convenience.</p><a class="primary" href="#shop">EXPLORE ACCESSORIES →</a></div>
- <div class="deal-art"><div class="ring"></div><div class="cube">G</div><div class="deal-card"><small>FEATURED</small><b>DESK ESSENTIALS</b><span>FROM $11.99</span></div></div>
-</section>
-
-<section class="trust">
- <div><b>⚡ FAST-CHARGE READY</b><span>Modern power accessories</span></div>
- <div><b>◇ CLEAN DESIGN</b><span>Made for modern setups</span></div>
- <div><b>✦ EVERYDAY VALUE</b><span>Useful gear, clear pricing</span></div>
-</section>
-
-<section class="newsletter" id="about"><div><div class="eyebrow">STAY CONNECTED</div><h2>Get product drops & offers.</h2></div><form onsubmit="event.preventDefault();this.querySelector('button').textContent='THANK YOU ✓'"><input type="email" required placeholder="Enter your email address"><button>JOIN THE LIST →</button></form></section>
+<div class="benefits" id="categories">
+<div class="benefit"><i>⚡</i><div><b>FAST CHARGING</b><small>Power for everyday devices</small></div></div>
+<div class="benefit"><i>◉</i><div><b>MOBILE GEAR</b><small>Useful everyday accessories</small></div></div>
+<div class="benefit"><i>◒</i><div><b>AUDIO</b><small>Portable wireless sound</small></div></div>
+<div class="benefit"><i>▣</i><div><b>DESK SETUP</b><small>Cleaner modern workspaces</small></div></div>
+</div>
+<section class="shop" id="shop"><div class="head"><div><div class="kicker">FEATURED COLLECTION</div><h2>Best Sellers</h2></div><a href="#shop">SHOP ALL →</a></div>
+<div class="grid">
+<article class="product"><span class="tag">BEST SELLER</span><div class="pic"><span class="icon">⚡</span></div><div class="cat">CHARGING</div><h3>65W GaN Fast Charger</h3><p>Compact high-speed USB-C power for modern devices.</p><div class="buy"><strong>$34.99</strong><button class="add" data-n="65W GaN Fast Charger" data-p="34.99">ADD</button></div></article>
+<article class="product"><span class="tag">NEW</span><div class="pic"><span class="icon">🔋</span></div><div class="cat">POWER</div><h3>20K Power Bank Pro</h3><p>Portable high-capacity backup power with digital display.</p><div class="buy"><strong>$39.99</strong><button class="add" data-n="20K Power Bank Pro" data-p="39.99">ADD</button></div></article>
+<article class="product"><span class="tag">POPULAR</span><div class="pic"><span class="icon">🎧</span></div><div class="cat">AUDIO</div><h3>Wireless Mini Buds</h3><p>Compact wireless audio for commuting and travel.</p><div class="buy"><strong>$29.99</strong><button class="add" data-n="Wireless Mini Buds" data-p="29.99">ADD</button></div></article>
+<article class="product"><span class="tag">SALE</span><div class="pic"><span class="icon">📱</span></div><div class="cat">DESK</div><h3>Magnetic Charging Stand</h3><p>Minimal phone stand for a cleaner everyday setup.</p><div class="buy"><strong>$19.99</strong><del>$24.99</del><button class="add" data-n="Magnetic Charging Stand" data-p="19.99">ADD</button></div></article>
+</div></section>
+<section class="promo" id="deals"><div><div class="kicker">GADGETGEARCO ESSENTIALS</div><h2>Upgrade the gear<br>you use <span>every day.</span></h2><p>Practical accessories. Modern presentation. Simple USD pricing.</p><div class="buttons"><a class="btn primary" href="#shop">SHOP ACCESSORIES →</a></div></div><div class="promoVisual"><div class="ring"></div><div class="square">G</div></div></section>
 </main>
-
-<footer><div class="brand"><div class="mark">G</div><div>GADGET<span>GEAR</span>CO</div></div><p>Premium electronic accessories for everyday tech.</p><small>© <span id="year"></span> GadgetGearCo. Demo storefront.</small></footer>
-
-<aside id="drawer" class="drawer"><div class="drawer-head"><h2>Your Bag</h2><button id="closeCart">×</button></div><div id="cartItems" class="cart-items"><p>Your bag is empty.</p></div><div class="total"><span>Total</span><strong id="total">$0.00</strong></div><button class="checkout">CHECKOUT — DEMO</button><small>* Demo storefront. Payments and fulfillment are not connected.</small></aside>
-<div id="overlay" class="overlay"></div>
-<script src="script.js"></script>
+<footer id="about"><div class="footerBrand">GADGET<span>GEAR</span>CO</div><p>Electronics • Accessories • Technology</p><small>© <span id="year"></span> GadgetGearCo. Demo storefront. Products, pricing and checkout are demonstration content.</small></footer>
+<aside class="drawer" id="drawer"><div class="drawerHead"><h2>Your Bag</h2><button id="close">×</button></div><div class="items" id="items"><p>Your bag is empty.</p></div><div class="total"><span>Total</span><strong id="total">$0.00</strong></div><button class="checkout">CHECKOUT — DEMO</button><span class="note">Payments, shipping, taxes, inventory and order processing are not connected.</span></aside><div class="overlay" id="overlay"></div>
+<script>
+const cart=[],count=document.getElementById("count"),drawer=document.getElementById("drawer"),overlay=document.getElementById("overlay"),items=document.getElementById("items"),total=document.getElementById("total");
+function render(){count.textContent=cart.length;if(!cart.length){items.innerHTML="<p>Your bag is empty.</p>";total.textContent="$0.00";return}items.innerHTML=cart.map(x=>`<div class="row"><span>${x.n}</span><b>$${x.p.toFixed(2)}</b></div>`).join("");total.textContent="$"+cart.reduce((a,x)=>a+x.p,0).toFixed(2)}
+function openCart(){drawer.classList.add("open");overlay.classList.add("show")}function closeCart(){drawer.classList.remove("open");overlay.classList.remove("show")}
+document.querySelectorAll(".add").forEach(b=>b.onclick=()=>{cart.push({n:b.dataset.n,p:+b.dataset.p});render();openCart()});
+document.getElementById("cartOpen").onclick=openCart;document.getElementById("close").onclick=closeCart;overlay.onclick=closeCart;document.getElementById("year").textContent=new Date().getFullYear();
+</script>
 </body></html>

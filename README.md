@@ -1,13 +1,7 @@
-# GadgetGearCo — Premium Online Store V3
+# GadgetGearCo — Single File Store V4
 
-A redesigned English-language storefront concept for GadgetGearCo.
+This version intentionally uses **one index.html file** containing HTML, CSS and JavaScript.
 
-## Design
-- Black / electric blue / silver-white premium technology aesthetic
-- Completely redesigned hero and product presentation
-- Responsive mobile layout
-- Product cards with USD demo prices
-- Functional front-end shopping bag
-- Deals, category navigation, trust strip and newsletter section
+Upload/replace `index.html` in the root of the GitHub Pages repository.
 
-> Products, prices, shipping claims and checkout are demonstration content. Payments, inventory, taxes, shipping and order fulfillment are not connected.
+Demo storefront: prices and checkout are not connected to real payments, shipping, inventory, taxes or fulfillment.

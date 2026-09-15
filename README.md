@@ -1,15 +1,14 @@
-# GadgetGearCo — Premium Online Store V5
+# GadgetGearCo — Premium Store V6
 
-Single-file GitHub Pages storefront.
+A redesigned single-file storefront for GitHub Pages.
 
-## V5 improvements
-- Premium product cards
-- USD prices
-- Previous prices and promotional badges
-- Star ratings
+- New hero and product presentation
+- CSS-built product illustrations instead of emoji placeholders
+- 8 product cards
+- USD demo pricing and sale pricing
 - Category filters
-- Functional front-end shopping bag
-- Responsive mobile design
-- Single `index.html` to avoid broken CSS/JS paths
+- Front-end shopping bag
+- Responsive layout
+- One `index.html` containing HTML, CSS and JavaScript
 
-> Products, prices, ratings and promotional claims are demonstration content. Checkout, payments, shipping, inventory, taxes and fulfillment are not connected.
+> Product information, prices, ratings, shipping statements and promotions are demonstration content until connected to real commerce services.

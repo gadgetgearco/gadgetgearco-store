@@ -27,13 +27,55 @@ section{padding:72px 5%}.sectionhead{display:flex;justify-content:space-between;
 footer{border-top:1px solid var(--line);padding:45px 5%;display:flex;justify-content:space-between;color:var(--muted);font-size:12px}.drawer{position:fixed;right:-390px;top:0;width:370px;height:100%;background:#071522;border-left:1px solid var(--line);z-index:50;padding:28px;transition:.3s;box-shadow:-20px 0 50px #0008}.drawer.open{right:0}.drawer h2{margin-top:55px}.close{position:absolute;right:25px;top:20px;background:none;border:0;color:white;font-size:28px;cursor:pointer}.cartline{padding:15px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between}.total{font-size:22px;font-weight:900;margin-top:25px}
 @media(max-width:900px){.links{display:none}.hero{grid-template-columns:1fr;padding-top:55px}.hero h1{font-size:52px}.hero-art{padding:30px 0}.orb{width:300px;height:300px}.orb .g{font-size:130px}.products{grid-template-columns:repeat(2,1fr)}.catgrid{grid-template-columns:repeat(2,1fr)}.trust{grid-template-columns:repeat(2,1fr)}.promo{grid-template-columns:1fr}.promo-art{margin-top:30px}}
 @media(max-width:520px){.products{grid-template-columns:1fr}.hero h1{font-size:44px}.sectionhead h2{font-size:34px}.orb{width:250px;height:250px}.f1{right:-5px}.f2{left:-5px}.drawer{width:100%}}
+
+/* V8 — larger premium desktop presentation */
+body{font-size:16px}
+nav{height:92px;padding-left:4.5%;padding-right:4.5%}
+.brand{font-size:25px}.mark{width:50px;height:50px;font-size:27px}
+.links{font-size:15px;gap:42px}.bag{font-size:16px;padding:15px 25px}
+.hero{min-height:720px;padding:82px 5.5%;grid-template-columns:1.08fr .92fr;gap:55px}
+.eyebrow{font-size:13px}
+.hero h1{font-size:88px;line-height:.91;max-width:760px;margin-top:20px}
+.hero p{font-size:21px;max-width:690px}
+.btn{font-size:14px;padding:18px 27px}
+.orb{width:440px;height:440px}.orb .g{font-size:205px}
+.float strong{font-size:22px}.float small{font-size:10px}
+.trust{padding-left:4.5%;padding-right:4.5%}.trust div{padding:29px 25px}.trust b{font-size:16px}.trust small{font-size:12px;margin-top:5px}
+section{padding:85px 4.5%}.sectionhead{margin-bottom:38px}.sectionhead h2{font-size:48px}
+.products{gap:24px}
+.card{padding:17px;border-radius:20px}
+.pic{height:285px}.device{width:125px;height:160px;font-size:53px}.round{width:135px;height:135px}
+.meta{padding:20px 7px 7px}.type{font-size:11px}.meta h3{font-size:22px}.desc{font-size:13px;line-height:1.55;min-height:42px}
+.stars{font-size:13px}.price strong{font-size:27px}.old{font-size:13px}.add{padding:15px;font-size:13px}
+.categories{padding-top:78px;padding-bottom:78px}.catgrid{gap:16px}.cat{padding:31px 10px}.cat span{font-size:35px}.cat b{font-size:13px}
+.promo{margin:0 4.5% 90px;padding:68px;border-radius:24px}.promo h2{font-size:52px}.promo p{font-size:17px}.promo-art{font-size:150px}
+footer{padding:52px 4.5%;font-size:13px}
+@media(min-width:1500px){
+  nav,.top{max-width:none}
+  .hero{padding-left:6%;padding-right:6%}
+  .hero h1{font-size:96px}
+  .products{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .pic{height:310px}
+}
+@media(max-width:1100px){
+  .hero h1{font-size:68px}.orb{width:350px;height:350px}.orb .g{font-size:160px}
+  .products{grid-template-columns:repeat(2,1fr)}.catgrid{grid-template-columns:repeat(4,1fr)}
+}
+@media(max-width:700px){
+  nav{height:74px}.brand{font-size:18px}.mark{width:40px;height:40px}
+  .hero{min-height:auto;padding:55px 6%;grid-template-columns:1fr}.hero h1{font-size:52px;letter-spacing:-2px}
+  .hero p{font-size:17px}.orb{width:280px;height:280px}.orb .g{font-size:125px}
+  section{padding:60px 5%}.products{grid-template-columns:1fr}.pic{height:260px}
+  .catgrid{grid-template-columns:repeat(2,1fr)}.promo{margin:0 5% 60px;padding:38px}.promo h2{font-size:38px}
+}
+
 </style>
 </head>
 <body>
 <div class="top">GADGETGEARCO • PREMIUM EVERYDAY TECH • USD PRICING</div>
 <nav><a class="brand" href="#"><span class="mark">G</span><span>GADGET<b>GEAR</b>CO</span></a><div class="links"><a href="#shop">Shop</a><a href="#categories">Categories</a><a href="#deals">Deals</a><a href="#about">About</a></div><button class="bag" onclick="toggleCart()">BAG&nbsp; <span id="count">0</span></button></nav>
 <header class="hero">
-<div><div class="eyebrow">PREMIUM TECH • BETTER EVERYDAY</div><h1>SMARTER GEAR.<br><span>BETTER SETUP.</span></h1><p>Premium electronic accessories designed to power, connect and simplify your everyday life — with a cleaner, more modern shopping experience.</p><div class="actions"><a class="btn primary" href="#shop">SHOP BEST SELLERS →</a><a class="btn secondary" href="#deals">EXPLORE DEALS</a></div></div>
+<div><div class="eyebrow">PREMIUM TECH • BETTER EVERYDAY</div><h1>SMARTER GEAR.<br><span>BETTER SETUP.</span></h1><p>Premium electronic accessories built to power, connect and elevate your everyday setup.</p><div class="actions"><a class="btn primary" href="#shop">SHOP BEST SELLERS →</a><a class="btn secondary" href="#deals">EXPLORE DEALS</a></div></div>
 <div class="hero-art"><div class="orb"><div class="g">G</div><div class="float f1"><small>GADGETGEARCO</small><strong>SMART TECH</strong></div><div class="float f2"><small>FAST POWER</small><strong>65W USB-C</strong></div></div></div>
 </header>
 <div class="trust"><div><b>🚚 Free Shipping</b><small>On orders over $50</small></div><div><b>♢ Secure Payments</b><small>Shop with confidence</small></div><div><b>📦 Easy Returns</b><small>30-day policy</small></div><div><b>🎧 24/7 Support</b><small>We're here to help</small></div></div>

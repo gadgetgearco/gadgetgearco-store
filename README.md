@@ -1,5 +1,13 @@
-# GadgetGearCo — Premium Online Store V2
+# GadgetGearCo — Premium Online Store V3
 
-Premium responsive storefront in English with USD demo pricing, product cards, categories, promotional hero, shopping cart and mobile layout.
+A redesigned English-language storefront concept for GadgetGearCo.
 
-> Products, prices, shipping claims and checkout are demonstration content until connected to real commerce services.
+## Design
+- Black / electric blue / silver-white premium technology aesthetic
+- Completely redesigned hero and product presentation
+- Responsive mobile layout
+- Product cards with USD demo prices
+- Functional front-end shopping bag
+- Deals, category navigation, trust strip and newsletter section
+
+> Products, prices, shipping claims and checkout are demonstration content. Payments, inventory, taxes, shipping and order fulfillment are not connected.

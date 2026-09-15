@@ -1,13 +1,17 @@
-# GadgetGearCo — Premium Store V6
+# GadgetGearCo — Premium Store V7
 
-Single-file GitHub Pages storefront.
+Premium single-file GitHub Pages storefront.
+
+## Install
+Replace the existing root `index.html` with the `index.html` from this ZIP.
 
 ## Included
-- Premium black + electric-blue design
-- Hero, best sellers, categories and promotion
-- USD demo prices
-- Functional front-end shopping bag
+- Redesigned premium hero
+- Larger, higher-impact product cards
+- USD pricing, sale pricing and ratings
+- Shopping bag interaction
+- Category section
 - Responsive mobile layout
-- Single `index.html` to avoid broken CSS/JS paths
+- Black + electric blue + silver/white brand styling
 
-> Products, prices, ratings, discounts, shipping claims and checkout are demonstration content. Payments, shipping, taxes, inventory and fulfillment are not connected.
+> Products, reviews, prices, shipping claims and checkout are demonstration content. Connect real commerce, inventory, payments, shipping and tax systems before accepting orders.
